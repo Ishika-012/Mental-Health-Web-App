@@ -1,0 +1,89 @@
+.quiz-container {
+  width: 700px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(193, 170, 170, 0.1);
+}
+
+#quiz{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image:url(./asset/background1.jpg);  
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.answer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.answer-list li {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #45a049;
+}
+
+#next {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+#submit {
+  background-color: #007BFF;
+}
+
+#submit:hover {
+  background-color: #0056b3;
+}
+
+button.centered {
+    display: block;
+    margin: 20px auto;
+    background-color: #008CBA;
+    color: white;
+}
+
+
+
+#dietChart{
+	margin: 20px auto;
+	display:block;
+	border: 2px solid black;
+  width:50%;
+ 
+}
+
