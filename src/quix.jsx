@@ -3,7 +3,7 @@ import background from './asset/background1.jpg';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
 
-import './Quiz.css';
+import './quiz.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 const quizData = [
   { question: "How often do you feel anxious?", a: { text: "Rarely", weight: 1 }, b: { text: "Sometimes", weight: 2 }, c: { text: "Often", weight: 3 }, d: { text: "Always", weight: 4 } },
