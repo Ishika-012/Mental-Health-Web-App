@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Task.css';
+import './task.css';
 import Header from './header.jsx';
 import LeftNav from './LeftNav.jsx';
 
