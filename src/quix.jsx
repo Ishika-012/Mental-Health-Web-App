@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import background from './asset/background1.jpg';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
+import { Link } from 'react-router-dom';
 
 import './quiz.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -79,7 +80,7 @@ const Quiz = () => {
       {showResults ? (
         <div>
           <p>{renderMessage()}</p>
-          <button className="centered" onClick={() => window.location.reload()}>Go Back!</button>
+         <Link  to="/intro"><button className="centered">Go Back!</button></Link>
         </div>
       ) : (
         <>

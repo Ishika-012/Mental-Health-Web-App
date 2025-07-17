@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "postinstall": "npm install axios"
+    "postinstall": "npm install axios"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
