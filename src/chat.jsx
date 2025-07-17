@@ -1,5 +1,5 @@
 import React from 'react';
-import './chatBot.css'; // Import the CSS for sliding animation
+import './chatbot.css'; // Import the CSS for sliding animation
 import ChatBot from './Chatbot';
 
 const Chat = ({ show, toggleChatBot }) => {
